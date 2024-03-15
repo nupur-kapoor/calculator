@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cal">
+      <input type="text" id="ans" readonly>
+      <div class="btn">
+         <button class="clabtn" onclick="currentval = currentval = '';
+         btnvalset.value = currentval;">C</button>
+
+
+         <button class="clabtn" onclick="currentval = currentval+ '1';
+         btnvalset.value = currentval;">1</button>
+
+
+         <button class="clabtn" onclick="currentval = currentval+ '2';
+         btnvalset.value = currentval;">2</button>
+
+
+         <button class="clabtn" onclick="currentval = currentval+ '+';
+         btnvalset.value = currentval;">+</button>
+
+         <button class="clabtn" onclick="currentval = currentval+ '3';
+         btnvalset.value = currentval;">3</button>
+
+         <button class="clabtn" onclick="currentval = currentval+ '4';
+         btnvalset.value = currentval;">4</button>
+
+         <button class="clabtn" onclick="currentval = currentval+ '-';
+         btnvalset.value = currentval;">-</button>
+
+
+         <button class="clabtn" onclick="currentval = currentval+ '5';
+         btnvalset.value = currentval;">5</button>
+
+
+         <button class="clabtn" onclick="currentval = currentval+ '6';
+         btnvalset.value = currentval;">6</button>
+
+
+         <button class="clabtn" onclick="currentval = currentval+ '*';
+         btnvalset.value = currentval;">*</button>
+
+
+         <button class="clabtn" onclick="currentval = currentval+ '7';
+         btnvalset.value = currentval;">7</button>
+
+
+         <button class="clabtn" onclick="currentval = currentval+ '8';
+         btnvalset.value = currentval;">8</button>
+
+
+         <button class="clabtn" onclick="currentval = currentval+ '/';
+         btnvalset.value = currentval;">/</button>
+<!-- --------------------------------------------- -->
+
+         <button class="clabtn" onclick ="
+         let result = eval(currentval);
+         currentval = result;
+         btnvalset.value = result;">=</button>
+
+<!-- /------------------------------------------------ -->
+         <button class="clabtn" onclick="currentval = currentval+ '9';
+         btnvalset.value = currentval;">9</button>
+
+
+         <button class="clabtn" onclick="currentval = currentval+ '0';
+         btnvalset.value = currentval;">0</button>
+
+
+         <button class="clabtn" onclick="currentval = currentval+ '.';
+         btnvalset.value = currentval;">.</button>
+    
+      </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
